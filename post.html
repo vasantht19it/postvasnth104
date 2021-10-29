@@ -1,0 +1,70 @@
+<!DOCTYPE html> 
+<html> 
+ <head> 
+ <title>Register</title> 
+ <meta charset="UTF-8"> 
+ <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" > 
+ <style>      body{          background-color:green; 
+     } 
+   td{ 
+ padding: 10px; 
+ 
+ color: white 
+ } 
+ div{ 
+ width: 50%;  border: 1px solid black;  border-radius: 5px;  background-color: #76D7C4 ; 
+ } 
+ 
+ </style> 
+ </head> 
+ <body> 
+ <h1 style="font-family: poppins;font-weight: bold;background-color: rgb(243, 3, 151);color: rgb(240, 6, 6); text-align: center;padding: 15px;">Employee Register Page</h1> 
+ <center> 
+ <br><br><br> 
+ <div> 
+ 
+ <form action="http://localhost:8080" method="POST"> 
+ <table> 
+<tr> 
+ <td>Employeename</td> 
+ <td><input type="text" class="form-control" name="name"placeholder="Username"></td> 
+ </tr> 
+ <tr> 
+    <td>Employee ID</td> 
+    <td><input type="text" class="form-control" name="eid"placeholder="enter id no"></td> 
+    </tr>
+<tr> 
+        <td>Oraganisation</td> 
+        <td><input type="text" class="form-control" name="oraganisation"placeholder="Companyname"></td> 
+        </tr>           
+<tr> 
+        <td>Branch</td> 
+        <td><input type="text" class="form-control" name="branch"placeholder="place name"></td> 
+</tr> 
+       
+ <td>Email</td> 
+ <td><input type="text" class="form-control" name="email" placeholder="Email"></td> 
+ </tr> 
+ <tr> 
+ <td>Gender</td> 
+ <td><input type="text" class="form-control" name="gender"placeholder="Gender"></td> 
+ </tr> 
+ <tr> 
+  <td>Experience year</td> 
+  <td><input type="text" class="form-control" name="experience"placeholder="year"></td> 
+  </tr>  
+ <tr> 
+ <td>Phone</td> 
+ <td><input type="text" class="form-control" name="number"placeholder="Phone"></td> 
+ </tr>
+ <tr> 
+  <tr> 
+ <td colspan="2" style="text-align:center"><input class="btn btn-warning"type="submit"  value="Register"></td> 
+ </tr> 
+ </table> 
+ </form> 
+ </div> 
+ </center> 
+ </body> 
+</html>
